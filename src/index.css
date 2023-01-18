@@ -1,13 +1,77 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#algerieImage {
+  width: 300px;
+  height: 130px;
+
+}
+
+.container {
+  /*position: relative;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1200px;*/
+  /*flex-wrap: wrap;*/
+  /*z-index: 1;*/
+}
+
+
+.country {
+  display: grid;
+
+}
+
+.home-wrapper {
+  /*position: relative;*/
+  width: 400px;
+  height: 400px;
+  padding-top: 40px;
+  margin: 60px;
+  /*margin: 30px;*/
+  box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  overflow: hidden;
+
+
+  justify-content: center;
+  align-items: center;
+  /*border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);*/
+}
+
+.img {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+img{
+  border-radius: 8px;
+}
+
+.country-details {
+  
+  justify-content: center;
+  text-align: left;
+margin-left: 50px;  
+}
+.button{
+  
+  padding: 20px;
+  text-align: center;
+}
+button{
+  background-color: deepskyblue;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+}
+.details{
+  background-color: deepskyblue;
 }
